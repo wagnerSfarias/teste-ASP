@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: white;
+}
+
+header {
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 120px;
+    position: relative;
+    top: 0;
+}
+
+.logo {
+    position: absolute;
+    width: 250px;
+    height: auto;
+}
+
+    .logo img {
+        width: 90%;
+        margin-left: 10%;
+    }
+
+nav {
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+    nav ul li {
+        float: left;
+        color: black;
+        width: auto;
+        margin: 0.8em;
+        font-size: 1.5em;
+        font-family: 'verdana';
+        list-style: none;
+    }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+            nav ul li a:hover {
+                color: white;
+            }
+
+.divLogin {
+    background-color:darkgray;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 81%;
+    height:280px;
+    transform: translate(-50%,-50%);
+    padding: 130px; 
+}
+.txtUser {
+    position: absolute;
+    top: 170px;
+    left: 40%;
+    height: 35px;
+    border-radius: 3px;
+    width: 250px;
+}
+
+.txtPass {
+    position: absolute;
+    top: 230px;
+    left: 40%;
+    height: 35px;
+    width:250px;
+    border-radius: 3px;
+}
+.btnLogar {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+}
+.avisoLogin {
+    position: absolute;
+    top: 285px;
+    left: 48%;
+}
+.nomeLogin {
+    position: absolute;
+    top: 15%;
+    left: 46%;
+    color: black;
+}
+.nomeReserva {
+    position: absolute;
+    top: 5%;
+    left: 46%;
+    color: black;
+}
+.txtNome {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    color: black;
+    width: 200px;
+    height: 20px;
+}
+.txtTelefone {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    color: black ;
+    width:200px;
+    height: 20px;
+}
+.txtRG {
+    position: absolute;
+    top: 40%;
+    left:45%;
+    color: black;
+    width:200px;
+    height:20px;
+        
+}
+.btnReservar {
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 60%;
+    left: 47%;
+}
+
+.inicio img {
+  position:absolute;
+  left:10%;
+  height:550px;
+  width:80%;
+}
